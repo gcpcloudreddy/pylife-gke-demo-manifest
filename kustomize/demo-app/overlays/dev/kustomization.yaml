@@ -12,6 +12,6 @@ patchesStrategicMerge:
 images:
 - name: demoapp
   newName: pylifedevops/demoapp
-  newTag: "21919e8"
+  newTag: 93639ab
 resources:
 - ../../base

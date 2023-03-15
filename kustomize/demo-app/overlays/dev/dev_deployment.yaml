@@ -24,9 +24,9 @@ spec:
       containers:
         - name: demo-app
           resources:
-            limits:
-              cpu: 1
-              memory: 0.5Gi
             requests:
-              cpu: 1
-              memory: 0.5Gi
+              memory: "64Mi"
+              cpu: "250m"
+            limits:
+              memory: "128Mi"
+              cpu: "500m"                  
