@@ -10,7 +10,7 @@ patchesStrategicMerge:
 - dev_deployment.yaml
 
 images:
-- name: demoapp
+- name: pylifedevops/demoapp
   newName: pylifedevops/demoapp
   newTag: 93639ab
 resources:
